@@ -120,7 +120,9 @@
 							<label for="estado" class="col-sm-1 control-label">Estado</label>
 							<div class="col-md-2">
 								<select class='form-control input-sm' id="estado_factura" name="estado_factura">
-								    <option value="3" <?php if ($estado_factura==3){echo "selected";}?>>Anulado</option>
+
+								    <option value="4" <?php if ($estado_factura==4){echo "selected";}?>>Anulado</option>
+									<option value="3" <?php if ($estado_factura==3){echo "selected";}?>>Abonado</option>
 								    <option value="2" <?php if ($estado_factura==2){echo "selected";}?>>Pendiente</option>
 									<option value="1" <?php if ($estado_factura==1){echo "selected";}?>>Pagado</option>
 

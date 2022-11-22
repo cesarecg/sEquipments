@@ -83,6 +83,7 @@
 						$estado_presupuesto=$row['estado_presupuesto'];
 						if ($estado_presupuesto==1){$text_estado="Pagada";$label_class='label-success';}
 						elseif($estado_presupuesto==2){$text_estado="Pendiente";$label_class='label-warning';}
+						elseif($estado_presupuesto==3){$text_estado="Abonado";$label_class='label-primary';}
 						else{$text_estado="Anulado";$label_class='label-danger';}
 						$total_venta=$row['total_venta'];
 					?>

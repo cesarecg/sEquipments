@@ -83,6 +83,7 @@
 						$estado_factura=$row['estado_factura'];
 						if ($estado_factura==1){$text_estado="Pagada";$label_class='label-success';}
 						elseif($estado_factura==2){$text_estado="Pendiente";$label_class='label-warning';}
+						elseif($estado_factura==3){$text_estado="Abonado";$label_class='label-primary';}
 						else{$text_estado="Anulado";$label_class='label-danger';}
 						$total_venta=$row['total_venta'];
 					?>
